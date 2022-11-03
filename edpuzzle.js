@@ -1,0 +1,1 @@
+javascript: if (window.location.hostname == "edpuzzle.com") {    var script = document.body.appendChild(document.createElement("script"));    script.src = "https://cdn.jsdelivr.net/gh/ASmallYawn/EdpuzzleSkipper@2.1/script.js";    script.remove();} else {    alert("Please run this on https://edpuzzle.com/assignments/[assignment_id]/watch")}
