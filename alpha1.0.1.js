@@ -170,6 +170,10 @@ var blooketab = document.createElement("button")
 blooketab.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/blooketantiban.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 blooketab.setAttribute("class", "obtn")
 blooketab.innerText = "Anti-Ban (Blooket)"
+var edpanswers = document.createElement("button")
+edpanswers.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js';document.body.appendChild(script);avoclosedevtools()}())")
+edpanswers.setAttribute("class", "obtn")
+edpanswers.innerText = "EdPuzzle Answers (WIP)"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#aaa;'>Github <i class='fa fa-github'></i></a>"
@@ -201,6 +205,7 @@ otherstuff.appendChild(char)
 otherstuff.appendChild(edpuzzle)
 otherstuff.appendChild(blooketaac)
 otherstuff.appendChild(blooketab)
+otherstuff.appendChild(edpanswers)
 
 // Style Element
 var thestyle = document.createElement("style")
