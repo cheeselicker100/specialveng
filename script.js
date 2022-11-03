@@ -155,9 +155,9 @@ tic.setAttribute("onclick", "javascript:(function () {var script=document.create
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
 var char = document.createElement("button")
-tic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tic.min.js';document.body.appendChild(script);avoclosedevtools()}())")
-tic.setAttribute("class", "obtn")
-tic.innerText = "Ultimate Tic-Tac-Toe"
+char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/extra.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+char.setAttribute("class", "obtn")
+char.innerText = "Weird Characters"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#aaa;'>Github <i class='fa fa-github'></i></a>"
