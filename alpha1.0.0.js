@@ -155,7 +155,7 @@ tic.setAttribute("onclick", "javascript:(function () {var script=document.create
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
 var char = document.createElement("button")
-char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/char.js';document.body.appendChild(script);avoclosedevtools()}())")
+char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/char.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 char.setAttribute("class", "obtn")
 char.innerText = "Weird Characters"
 var edpuzzle = document.createElement("button")
@@ -200,6 +200,7 @@ otherstuff.appendChild(git)
 otherstuff.appendChild(char)
 otherstuff.appendChild(edpuzzle)
 otherstuff.appendChild(blooketaac)
+otherstuff.appendChild(blooketab)
 
 // Style Element
 var thestyle = document.createElement("style")
