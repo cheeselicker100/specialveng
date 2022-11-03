@@ -155,7 +155,7 @@ tic.setAttribute("onclick", "javascript:(function () {var script=document.create
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
 var char = document.createElement("button")
-char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/extra.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/extra2.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 char.setAttribute("class", "obtn")
 char.innerText = "Weird Characters"
 var git = document.createElement("button")
