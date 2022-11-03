@@ -16,14 +16,14 @@ var navbar = document.getElementById("avonavbar")
 
 // Edit Nav
 var edit = document.createElement("button")
-edit.innerText = "Edit_"
+edit.innerText = "Edit"
 edit.setAttribute("class", "avoedit")
 edit.setAttribute("onclick", "if(document.body.contentEditable !== 'true') {    document.body.contentEditable = 'true'; document.designMode='on'; void 0} else {    document.body.contentEditable = 'false'; document.designMode='off'; void 0}")
 navbar.appendChild(edit)
 
 //X-Ray Nav
 var xray = document.createElement("button")
-xray.innerText = "Test"
+xray.innerText = "X-Ray"
 xray.setAttribute("class", "avoxray")
 xray.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://x-ray-goggles.mouse.org/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://x-ray-goggles.mouse.org');document.body.appendChild(script);}())")
 navbar.appendChild(xray)
@@ -154,6 +154,10 @@ var tic = document.createElement("button")
 tic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tic.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
+var char = document.createElement("button")
+tic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tic.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+tic.setAttribute("class", "obtn")
+tic.innerText = "Ultimate Tic-Tac-Toe"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#aaa;'>Github <i class='fa fa-github'></i></a>"
@@ -181,6 +185,7 @@ otherstuff.appendChild(br10)
 otherstuff.appendChild(tic)
 otherstuff.appendChild(br11)
 otherstuff.appendChild(git)
+otherstuff.appendChild(char)
 
 // Style Element
 var thestyle = document.createElement("style")
