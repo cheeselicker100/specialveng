@@ -155,13 +155,21 @@ tic.setAttribute("onclick", "javascript:(function () {var script=document.create
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
 var char = document.createElement("button")
-char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/char.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/char.js';document.body.appendChild(script);avoclosedevtools()}())")
 char.setAttribute("class", "obtn")
 char.innerText = "Weird Characters"
 var edpuzzle = document.createElement("button")
-edpuzzle.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/char.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+edpuzzle.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/edpuzzle.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 edpuzzle.setAttribute("class", "obtn")
-edpuzzle.innerText = "Weird Characters"
+edpuzzle.innerText = "Skipper"
+var blooketaac = document.createElement("button")
+blooketaac.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/blooketaac.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+blooketaac.setAttribute("class", "obtn")
+blooketaac.innerText = "AAC (Blooket)"
+var blooketab = document.createElement("button")
+blooketab.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/blooketantiban.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+blooketab.setAttribute("class", "obtn")
+blooketab.innerText = "Anti-Ban (Blooket)"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#aaa;'>Github <i class='fa fa-github'></i></a>"
@@ -190,6 +198,8 @@ otherstuff.appendChild(tic)
 otherstuff.appendChild(br11)
 otherstuff.appendChild(git)
 otherstuff.appendChild(char)
+otherstuff.appendChild(edpuzzle)
+otherstuff.appendChild(blooketaac)
 
 // Style Element
 var thestyle = document.createElement("style")
