@@ -198,7 +198,7 @@ thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bott
 // .elements
 thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
 
-thestyle.innerText += ".avoelements:hover {background: #300e47;}"
+thestyle.innerText += ".avoelements:hover {background: #1f1840;}"
 
 // .thecode
 thestyle.innerText += ".avothecode {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 10px; padding: 5px; overflow: scroll; text-align: left; height: 90%;}"
@@ -209,37 +209,37 @@ thestyle.innerText += ".avotheother {border: 1px solid white; margin: 5px; margi
 // .edit
 thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px 0 0 10px; margin: 0; margin-top: 10px; margin-left: 5px;}"
 
-thestyle.innerText += ".avoedit:hover {background: #300e47;}"
+thestyle.innerText += ".avoedit:hover {background: #1f1840;}"
 
 // .obtn
 thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px; margin: 0; margin-top: 10px; margin-left: 5px;} .obtn:hover {background: #0d0d0d;}"
 
-thestyle.innerText += "#greybtn:hover {background: #300e47;}"
+thestyle.innerText += "#greybtn:hover {background: #1f1840;}"
 
 // .xray
 thestyle.innerText += ".avoxray {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; margin: 0; margin-top: 10px; border-left: none;}"
 
-thestyle.innerText += ".avoxray:hover {background: #300e47;}"
+thestyle.innerText += ".avoxray:hover {background: #1f1840;}"
 
 // .console
 thestyle.innerText += ".avoconsole {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-right: none; margin: 0; margin-top: 10px;}"
 
-thestyle.innerText += ".avoconsole:hover {background: #300e47;}"
+thestyle.innerText += ".avoconsole:hover {background: #1f1840;}"
 
 // .other
 thestyle.innerText += ".avoother {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 0 10px 10px 0; margin: 0; margin-top: 10px;}"
 
-thestyle.innerText += ".avoother:hover {background: #300e47;}"
+thestyle.innerText += ".avoother:hover {background: #1f1840;}"
 
 // .closebtn
 thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px; margin-right: 10px; margin-top: 10px; float: right;}"
 
-thestyle.innerText += ".avoclosebtn:hover {background: #300e47;}"
+thestyle.innerText += ".avoclosebtn:hover {background: #1f1840;}"
 
 // .active
 thestyle.innerText += ".avoactive {background: #f7812d; color: white;}"
 
-thestyle.innerText += ".avoactive:hover {background: #300e47;}"
+thestyle.innerText += ".avoactive:hover {background: #1f1840;}"
 
 // #loginput
 thestyle.innerText += "#avologinput {outline: none; border: none; width: 100%; font-size: 15px;background:#292929;color:white;}"
