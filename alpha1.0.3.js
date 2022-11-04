@@ -194,6 +194,22 @@ var snow = document.createElement("button")
 snow.setAttribute("onclick", "javascript: (t => { function i() { this.D = function() { const t = h.atan(this.i / this.d); l.save(), l.translate(this.b, this.a), l.rotate(-t), l.scale(this.e, this.e * h.max(1, h.pow(this.j, .7) / 15)), l.drawImage(m, -v / 2, -v / 2), l.restore() } } window; const h = Math, r = h.random, a = document, o = Date.now; e = (t => { l.clearRect(0, 0, _, f), l.fill(), requestAnimationFrame(e); const i = .001 * y.et; y.r(); const s = L.et * g; for (var n = 0; n < C.length; ++n) { const t = C[n]; t.i = h.sin(s + t.g) * t.h, t.j = h.sqrt(t.i * t.i + t.f), t.a += t.d * i, t.b += t.i * i, t.a > w && (t.a = -u), t.b > b && (t.b = -u), t.b < -u && (t.b = b), t.D() } }), s = (t => { for (var e = 0; e < p; ++e) C[e].a = r() * (f + u), C[e].b = r() * _ }), n = (t => { c.width = _ = innerWidth, c.height = f = innerHeight, w = f + u, b = _ + u, s() }); class d { constructor(t, e = !0) { this._ts = o(), this._p = !0, this._pa = o(), this.d = t, e && this.s() } get et() { return this.ip ? this._pa - this._ts : o() - this._ts } get rt() { return h.max(0, this.d - this.et) } get ip() { return this._p } get ic() { return this.et >= this.d } s() { return this._ts = o() - this.et, this._p = !1, this } r() { return this._pa = this._ts = o(), this } p() { return this._p = !0, this._pa = o(), this } st() { return this._p = !0, this } } const c = a.createElement("canvas"); H = c.style, H.position = "fixed", H.left = 0, H.top = 0, H.width = "100vw", H.height = "100vh", H.zIndex = "100000", H.pointerEvents = "none", a.body.insertBefore(c, a.body.children[0]); const l = c.getContext("2d"), p = 300, g = 5e-4, u = 20; let _ = c.width = innerWidth, f = c.height = innerHeight, w = f + u, b = _ + u; const v = 15.2, m = a.createElement("canvas"), E = m.getContext("2d"), x = E.createRadialGradient(7.6, 7.6, 0, 7.6, 7.6, 7.6); x.addColorStop(0, "hsla(255,255%,255%,1)"), x.addColorStop(1, "hsla(255,255%,255%,0)"), E.fillStyle = x, E.fillRect(0, 0, v, v); let y = new d(0, !0), C = [], L = new d(0, !0); for (var j = 0; j < p; ++j) { const t = new i; t.a = r() * (f + u), t.b = r() * _, t.c = 1 * (3 * r() + .8), t.d = .1 * h.pow(t.c, 2.5) * 50 * (2 * r() + 1), t.d = t.d < 65 ? 65 : t.d, t.e = t.c / 7.6, t.f = t.d * t.d, t.g = r() * h.PI / 1.3, t.h = 15 * t.c, t.i = 0, t.j = 0, C.push(t) } s(), EL = a.addEventListener, EL("visibilitychange", () => setTimeout(n, 100), !1), EL("resize", n, !1), e() })()")
 snow.setAttribute("class", "obtn")
 snow.innerText = "Cell Cursor"
+var brkn = document.createElement("button")
+brkn.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/crooked.js';document.body.appendChild(script);avoclosedevtools()}())")
+brkn.setAttribute("class", "obtn")
+brkn.innerText = "Crooked Page"
+var panic = document.createElement("button")
+panic.setAttribute("onclick", "javascript:var element = document.getElementById("rusic-modal"); element.parentNode.removeChild(element);")
+panic.setAttribute("class", "obtn")
+panic.innerText = "Panic"
+var upper = document.createElement("button")
+upper.setAttribute("onclick", "(function() { var i, t, D = document; for (i = 0; t = D.getElementsByTagName('textarea')[i]; ++i) t.value = t.value.toLowerCase();  var newSS, styles = '*{text-transform:uppercase}input,textarea{text-transform:none}'; if (D.createStyleSheet) { D.createStyleSheet("javascript:'" + styles + "'"); } else { newSS = D.createElement('link'); newSS.rel = 'stylesheet'; newSS.href = 'data:text/css,' + escape(styles); D.getElementsByTagName("head")[0].appendChild(newSS); } })()")
+upper.setAttribute("class", "obtn")
+upper.innerText = "Uppercase"
+var spaz = document.createElement("button")
+spaz.setAttribute("onclick", "R=0; x1=.1; y1=.05; x2=.25; y2=.24; x3=1.6; y3=.24; x4=300; y4=200; x5=300; y5=200; DI=document.getElementsByTagName("img"); DIL=DI.length; function A(){for(i=0; i-DIL; i++){DIS=DI[ i ].style; DIS.position='absolute'; DIS.left=(Math.sin(R*x1+i*x2+x3)*x4+x5)+"px"; DIS.top=(Math.cos(R*y1+i*y2+y3)*y4+y5)+"px"}R++}setInterval('A()',5); void(0)")
+spaz.setAttribute("class", "obtn")
+spaz.innerText = "Spazzy Images"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -231,6 +247,10 @@ otherstuff.appendChild(historyflood)
 otherstuff.appendChild(nukegame)
 otherstuff.appendChild(cell)
 otherstuff.appendChild(snow)
+otherstuff.appendChild(brkn)
+otherstuff.appendChild(panic)
+otherstuff.appendChild(upper)
+otherstuff.appendChild(spaz)
 
 // Style Element
 var thestyle = document.createElement("style")
