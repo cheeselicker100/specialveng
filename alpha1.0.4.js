@@ -199,13 +199,17 @@ brkn.setAttribute("onclick", "javascript:(function () {var script=document.creat
 brkn.setAttribute("class", "obtn")
 brkn.innerText = "Crooked Page"
 var panic = document.createElement("button")
-panic.setAttribute("onclick", "javascript:var element = document.getElementById("rusic-modal"); element.parentNode.removeChild(element);")
+panic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/panic.js';document.body.appendChild(script);avoclosedevtools()}())")
 panic.setAttribute("class", "obtn")
 panic.innerText = "Panic"
 var upper = document.createElement("button")
 upper.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/upper.js';document.body.appendChild(script);avoclosedevtools()}())")
 upper.setAttribute("class", "obtn")
 upper.innerText = "Uppercase"
+var blur = document.createElement("button")
+blur.setAttribute("onclick", "javascript: (function () { document.body.style.filter = 'blur(5px)'; })();")
+blur.setAttribute("class", "obtn")
+blur.innerText = "Blur"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -232,7 +236,6 @@ otherstuff.appendChild(grey)
 otherstuff.appendChild(br10)
 otherstuff.appendChild(tic)
 otherstuff.appendChild(br11)
-otherstuff.appendChild(git)
 otherstuff.appendChild(char)
 otherstuff.appendChild(edpuzzle)
 otherstuff.appendChild(blooketaac)
@@ -246,6 +249,7 @@ otherstuff.appendChild(snow)
 otherstuff.appendChild(brkn)
 otherstuff.appendChild(panic)
 otherstuff.appendChild(upper)
+otherstuff.appendChild(blur)
 
 // Style Element
 var thestyle = document.createElement("style")
