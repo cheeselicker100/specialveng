@@ -183,7 +183,7 @@ removeDE.setAttribute("onclick", "javascript:(function () {var script=document.c
 removeDE.setAttribute("class", "obtn")
 removeDE.innerText = "Disable Admin Enabled Extensions"
 var historyflood = document.createElement("button")
-historyflood.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/historyflood.js';document.body.appendChild(script);avoclosedevtools()}())")
+historyflood.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/historyflood.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 historyflood.setAttribute("class", "obtn")
 historyflood.innerText = "Flood History"
 var git = document.createElement("button")
