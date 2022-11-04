@@ -1,0 +1,1 @@
+javascript:var num=prompt(Enter # of times you want this site to appear in your history);done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("History Flooding Successful!\n "+window.location.href+" \nNow Appears In Your History "+num+(num==1?" time.":" Times. \nYoinked by 2emk7"))}
