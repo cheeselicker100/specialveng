@@ -186,6 +186,10 @@ var nukegame = document.createElement("button")
 nukegame.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/nukegame.js';document.body.appendChild(script);avoclosedevtools()}())")
 nukegame.setAttribute("class", "obtn")
 nukegame.innerText = "Nuke (Game)"
+var cell = document.createElement("button")
+cell.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/cell.js';document.body.appendChild(script);avoclosedevtools()}())")
+cell.setAttribute("class", "obtn")
+cell.innerText = "Cell Cursor"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -221,6 +225,7 @@ otherstuff.appendChild(edpanswers)
 otherstuff.appendChild(qiz)
 otherstuff.appendChild(historyflood)
 otherstuff.appendChild(nukegame)
+otherstuff.appendChild(cell)
 
 // Style Element
 var thestyle = document.createElement("style")
@@ -252,7 +257,7 @@ thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: tra
 thestyle.innerText += ".avoedit:hover {background: #1f1840;}"
 
 // .obtn
-thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px; margin: 0; margin-top: 10px; margin-left: 5px;} .obtn:hover {background: #0d0d0d;}"
+thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px; margin: 0; margin-top: 10px; margin-left: 5px;} .obtn:hover {background: #630932;}"
 
 thestyle.innerText += "#greybtn:hover {background: #1f1840;}"
 
