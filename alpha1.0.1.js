@@ -182,6 +182,14 @@ var removeDE = document.createElement("button")
 removeDE.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/disableae.js';document.body.appendChild(script);avoclosedevtools()}())")
 removeDE.setAttribute("class", "obtn")
 removeDE.innerText = "Disable Admin Enabled Extensions"
+var removeDE = document.createElement("button")
+removeDE.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/disableae.js';document.body.appendChild(script);avoclosedevtools()}())")
+removeDE.setAttribute("class", "obtn")
+removeDE.innerText = "Disable Admin Enabled Extensions"
+var historyflood = document.createElement("button")
+historyflood.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/historyflood.js';document.body.appendChild(script);avoclosedevtools()}())")
+historyflood.setAttribute("class", "obtn")
+historyflood.innerText = "Flood History"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#aaa;'>Github <i class='fa fa-github'></i></a>"
@@ -214,6 +222,9 @@ otherstuff.appendChild(edpuzzle)
 otherstuff.appendChild(blooketaac)
 otherstuff.appendChild(blooketab)
 otherstuff.appendChild(edpanswers)
+otherstuff.appendChild(qiz)
+otherstuff.appendChild(removeDE)
+otherstuff.appendChild(historyflood)
 
 // Style Element
 var thestyle = document.createElement("style")
