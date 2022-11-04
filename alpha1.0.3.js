@@ -173,7 +173,7 @@ blooketab.innerText = "Anti-Ban (Blooket)"
 var edpanswers = document.createElement("button")
 edpanswers.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js';document.body.appendChild(script);avoclosedevtools()}())")
 edpanswers.setAttribute("class", "obtn")
-edpanswers.innerText = "EdPuzzle Answers (WIP)"
+edpanswers.innerText = "Answers"
 var qiz = document.createElement("button")
 qiz.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/quizizzpts.js';document.body.appendChild(script);avoclosedevtools()}())")
 qiz.setAttribute("class", "obtn")
