@@ -155,9 +155,9 @@ tic.setAttribute("onclick", "javascript:(function () {var script=document.create
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
 var char = document.createElement("button")
-char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/char.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+char.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/specialchars.js';document.body.appendChild(script);avoclosedevtools()}())")
 char.setAttribute("class", "obtn")
-char.innerText = "Weird Characters"
+char.innerText = "Weird Characters (WIP)"
 var edpuzzle = document.createElement("button")
 edpuzzle.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/edpuzzle.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 edpuzzle.setAttribute("class", "obtn")
@@ -178,14 +178,14 @@ var qiz = document.createElement("button")
 qiz.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/quizizzpts.js';document.body.appendChild(script);avoclosedevtools()}())")
 qiz.setAttribute("class", "obtn")
 qiz.innerText = "Point Giver (Quizizz)"
-var removeDE = document.createElement("button")
-removeDE.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/disableae.js';document.body.appendChild(script);avoclosedevtools()}())")
-removeDE.setAttribute("class", "obtn")
-removeDE.innerText = "Disable Admin Enabled Extensions"
 var historyflood = document.createElement("button")
 historyflood.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/historyflood.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 historyflood.setAttribute("class", "obtn")
 historyflood.innerText = "Flood History"
+var nukegame = document.createElement("button")
+nukegame.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/nukegame.js';document.body.appendChild(script);avoclosedevtools()}())")
+nukegame.setAttribute("class", "obtn")
+nukegame.innerText = "Nuke (Game)"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -220,6 +220,7 @@ otherstuff.appendChild(blooketab)
 otherstuff.appendChild(edpanswers)
 otherstuff.appendChild(qiz)
 otherstuff.appendChild(historyflood)
+otherstuff.appendChild(nukegame)
 
 // Style Element
 var thestyle = document.createElement("style")
@@ -276,12 +277,12 @@ thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background:
 thestyle.innerText += ".avoclosebtn:hover {background: #1f1840;}"
 
 // .active
-thestyle.innerText += ".avoactive {background: #ff9369; color: white;}"
+thestyle.innerText += ".avoactive {background: #ff9369; color: purple;}"
 
 thestyle.innerText += ".avoactive:hover {background: #1f1840;}"
 
 // #loginput
-thestyle.innerText += "#avologinput {outline: none; border: none; width: 100%; font-size: 15px;background:#ff9369;color:orange;}"
+thestyle.innerText += "#avologinput {outline: none; border: none; width: 100%; font-size: 15px;background:#f7812d;color:orange;}"
 
 // .loginput2
 thestyle.innerText += ".avologinput2 {display: flex; font-size: 15px;margin: 10px; display: none;}"
