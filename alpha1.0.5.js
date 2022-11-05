@@ -193,7 +193,7 @@ cell.innerText = "Cell Cursor"
 var snow = document.createElement("button")
 snow.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/snow.js';document.body.appendChild(script);avoclosedevtools()}())")
 snow.setAttribute("class", "obtn")
-snow.innerText = "Cell Cursor"
+snow.innerText = "Snow"
 var brkn = document.createElement("button")
 brkn.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/crooked.js';document.body.appendChild(script);avoclosedevtools()}())")
 brkn.setAttribute("class", "obtn")
@@ -210,6 +210,18 @@ var blur = document.createElement("button")
 blur.setAttribute("onclick", "javascript: (function () { document.body.style.filter = 'blur(5px)'; })();")
 blur.setAttribute("class", "obtn")
 blur.innerText = "Blur"
+var unbl = document.createElement("button")
+unbl.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/unblocker.js';document.body.appendChild(script);avoclosedevtools()}())")
+unbl.setAttribute("class", "obtn")
+unbl.innerText = "Blur"
+var ngb = document.createElement("button")
+ngb.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/kahootnamegenbypass.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+ngb.setAttribute("class", "obtn")
+ngb.innerText = "Name-Gen Bypass (Kahoot)"
+var npb = document.createElement("button")
+npb.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/kahootnamefilterbypass.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+npb.setAttribute("class", "obtn")
+npb.innerText = "Name Profanity Bypass (Kahoot)"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -250,6 +262,9 @@ otherstuff.appendChild(brkn)
 otherstuff.appendChild(panic)
 otherstuff.appendChild(upper)
 otherstuff.appendChild(blur)
+otherstuff.appendChild(unbl)
+otherstuff.appendChild(ngb)
+otherstuff.appendChild(npb)
 
 // Style Element
 var thestyle = document.createElement("style")
@@ -262,7 +277,7 @@ thestyle.innerText = "@import url('https://fonts.googleapis.com/css2?family=Robo
 thestyle.innerText += ".avodevtools {font-family: Roboto;}"
 
 // .devtools
-thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bottom: 8px; width: 500px; background: #292929; color: white; border-radius: 10px; text-align: center; z-index: 9999999999;}"
+thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bottom: 8px; width: 500px; background: #630932; color: white; border-radius: 10px; text-align: center; z-index: 9999999999;}"
 
 // .elements
 thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
