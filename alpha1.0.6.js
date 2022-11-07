@@ -221,7 +221,7 @@ games.innerText = "Game Hub (WIP)"
 var crash = document.createElement("button")
 crash.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/chromebookcrasher.js';document.body.appendChild(script);avoclosedevtools()}())")
 crash.setAttribute("class", "obtn")
-crash.innerText = "Crash Chromebook (5min+)"
+crash.innerText = "Crash Chromebook (5 min+)"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
