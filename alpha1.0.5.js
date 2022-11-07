@@ -213,15 +213,7 @@ blur.innerText = "Blur"
 var unbl = document.createElement("button")
 unbl.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/unblocker.js';document.body.appendChild(script);avoclosedevtools()}())")
 unbl.setAttribute("class", "obtn")
-unbl.innerText = "Blur"
-var ngb = document.createElement("button")
-ngb.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/kahootnamegenbypass.min.js';document.body.appendChild(script);avoclosedevtools()}())")
-ngb.setAttribute("class", "obtn")
-ngb.innerText = "Name-Gen Bypass (Kahoot)"
-var npb = document.createElement("button")
-npb.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/kahootnamefilterbypass.min.js';document.body.appendChild(script);avoclosedevtools()}())")
-npb.setAttribute("class", "obtn")
-npb.innerText = "Name Profanity Bypass (Kahoot)"
+unbl.innerText = "Proxy"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
