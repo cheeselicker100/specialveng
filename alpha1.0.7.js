@@ -211,7 +211,7 @@ blur.setAttribute("onclick", "javascript: (function () { document.body.style.fil
 blur.setAttribute("class", "obtn")
 blur.innerText = "Blur"
 var unbl = document.createElement("button")
-unbl.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/unblocker.js';document.body.appendChild(script);avoclosedevtools()}())")
+unbl.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/unblkr.js';document.body.appendChild(script);avoclosedevtools()}())")
 unbl.setAttribute("class", "obtn")
 unbl.innerText = "Unblocker"
 var games = document.createElement("button")
@@ -222,6 +222,10 @@ var crash = document.createElement("button")
 crash.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/chromebookcrasher.js';document.body.appendChild(script);avoclosedevtools()}())")
 crash.setAttribute("class", "obtn")
 crash.innerText = "Crash Chromebook (5 min+)"
+var pause = document.createElement("button")
+pause.setAttribute("onclick", "javascript:alert('Paused! Click OK to resume.');")
+pause.setAttribute("class", "obtn")
+pause.innerText = "Pause Webpage"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -265,6 +269,7 @@ otherstuff.appendChild(blur)
 otherstuff.appendChild(unbl)
 otherstuff.appendChild(games)
 otherstuff.appendChild(crash)
+otherstuff.appendChild(pause)
 
 // Style Element
 var thestyle = document.createElement("style")
@@ -282,7 +287,7 @@ thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bott
 // .elements
 thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
 
-thestyle.innerText += ".avoelements:hover {background: #1f1840;}"
+thestyle.innerText += ".avoelements:hover {background: #e36724;}"
 
 // .thecode
 thestyle.innerText += ".avothecode {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 10px; padding: 5px; overflow: scroll; text-align: left; height: 90%;}"
@@ -293,37 +298,37 @@ thestyle.innerText += ".avotheother {border: 1px solid white; margin: 5px; margi
 // .edit
 thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px 0 0 10px; margin: 0; margin-top: 10px; margin-left: 5px;}"
 
-thestyle.innerText += ".avoedit:hover {background: #1f1840;}"
+thestyle.innerText += ".avoedit:hover {background: #e36724;}"
 
 // .obtn
 thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px; margin: 0; margin-top: 10px; margin-left: 5px;} .obtn:hover {background: #630932;}"
 
-thestyle.innerText += "#greybtn:hover {background: #1f1840;}"
+thestyle.innerText += "#greybtn:hover {background: #e36724;}"
 
 // .xray
 thestyle.innerText += ".avoxray {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; margin: 0; margin-top: 10px; border-left: none;}"
 
-thestyle.innerText += ".avoxray:hover {background: #1f1840;}"
+thestyle.innerText += ".avoxray:hover {background: #e36724;}"
 
 // .console
 thestyle.innerText += ".avoconsole {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-right: none; margin: 0; margin-top: 10px;}"
 
-thestyle.innerText += ".avoconsole:hover {background: #1f1840;}"
+thestyle.innerText += ".avoconsole:hover {background: #e36724;}"
 
 // .other
 thestyle.innerText += ".avoother {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 0 10px 10px 0; margin: 0; margin-top: 10px;}"
 
-thestyle.innerText += ".avoother:hover {background: #1f1840;}"
+thestyle.innerText += ".avoother:hover {background: #e36724;}"
 
 // .closebtn
 thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #f7812d; border-radius: 10px; margin-right: 10px; margin-top: 10px; float: right;}"
 
-thestyle.innerText += ".avoclosebtn:hover {background: #1f1840;}"
+thestyle.innerText += ".avoclosebtn:hover {background: #e36724;}"
 
 // .active
 thestyle.innerText += ".avoactive {background: #ff9369; color: purple;}"
 
-thestyle.innerText += ".avoactive:hover {background: #1f1840;}"
+thestyle.innerText += ".avoactive:hover {background: #e36724;}"
 
 // #loginput
 thestyle.innerText += "#avologinput {outline: none; border: none; width: 100%; font-size: 15px;background:#f7812d;color:orange;}"
