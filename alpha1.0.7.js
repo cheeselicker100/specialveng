@@ -161,7 +161,7 @@ char.innerText = "Weird Characters (WIP)"
 var edpuzzle = document.createElement("button")
 edpuzzle.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/edpuzzle.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 edpuzzle.setAttribute("class", "obtn")
-edpuzzle.innerText = "Skipper"
+edpuzzle.innerText = "EP Skipper"
 var blooketaac = document.createElement("button")
 blooketaac.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/blooketaac.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 blooketaac.setAttribute("class", "obtn")
@@ -173,7 +173,7 @@ blooketab.innerText = "Anti-Ban (Blooket)"
 var edpanswers = document.createElement("button")
 edpanswers.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js';document.body.appendChild(script);avoclosedevtools()}())")
 edpanswers.setAttribute("class", "obtn")
-edpanswers.innerText = "Answers"
+edpanswers.innerText = "EP Answers"
 var qiz = document.createElement("button")
 qiz.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/quizizzpts.js';document.body.appendChild(script);avoclosedevtools()}())")
 qiz.setAttribute("class", "obtn")
@@ -230,6 +230,18 @@ var dwnl = document.createElement("button")
 dwnl.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/unblkr.js';document.body.appendChild(script);avoclosedevtools()}())")
 dwnl.setAttribute("class", "obtn")
 dwnl.innerText = "Fake Virus"
+var zap = document.createElement("button")
+zap.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/zap.js';document.body.appendChild(script);avoclosedevtools()}())")
+zap.setAttribute("class", "obtn")
+zap.innerText = "Element Zapper"
+var cya = document.createElement("button")
+cya.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/slide.js';document.body.appendChild(script);avoclosedevtools()}())")
+cya.setAttribute("class", "obtn")
+cya.innerText = "Goodbye!"
+var bsod = document.createElement("button")
+bsod.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/bsod.js';document.body.appendChild(script);avoclosedevtools()}())")
+bsod.setAttribute("class", "obtn")
+bsod.innerText = "BSOD"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -274,6 +286,10 @@ otherstuff.appendChild(unbl)
 otherstuff.appendChild(games)
 otherstuff.appendChild(crash)
 otherstuff.appendChild(pause)
+otherstuff.appendChild(dwnl)
+otherstuff.appendChild(zap)
+otherstuff.appendChild(cya)
+otherstuff.appendChild(bsod)
 
 // Style Element
 var thestyle = document.createElement("style")
