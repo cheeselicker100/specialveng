@@ -226,6 +226,10 @@ var pause = document.createElement("button")
 pause.setAttribute("onclick", "javascript:alert('Paused! Click OK to resume.');")
 pause.setAttribute("class", "obtn")
 pause.innerText = "Pause Webpage"
+var dwnl = document.createElement("button")
+dwnl.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/unblkr.js';document.body.appendChild(script);avoclosedevtools()}())")
+dwnl.setAttribute("class", "obtn")
+dwnl.innerText = "Fake Virus"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
