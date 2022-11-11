@@ -147,7 +147,7 @@ dark.setAttribute("onclick", "javascript:(function () {var script=document.creat
 dark.setAttribute("class", "obtn")
 dark.innerText = "Dark Mode"
 var click = document.createElement("button")
-click.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/autoclicker.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+click.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/specialveng@main/newac.js';document.body.appendChild(script);avoclosedevtools()}())")
 click.setAttribute("class", "obtn")
 click.innerText = "Autoclicker"
 var tic = document.createElement("button")
