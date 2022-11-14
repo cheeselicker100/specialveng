@@ -242,6 +242,10 @@ var bsod = document.createElement("button")
 bsod.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/bsod.js';document.body.appendChild(script);avoclosedevtools()}())")
 bsod.setAttribute("class", "obtn")
 bsod.innerText = "BSOD"
+var bwbs = document.createElement("button")
+bwbs.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/blockwebsite.js';document.body.appendChild(script);avoclosedevtools()}())")
+bwbs.setAttribute("class", "obtn")
+bwbs.innerText = "Block Website (not literally)"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/cheeselicker100/specialveng' target='_blank' style='text-decoration:none; color:#f7812d;'>Github <i class='fa fa-github'></i></a>"
@@ -290,6 +294,7 @@ otherstuff.appendChild(dwnl)
 otherstuff.appendChild(zap)
 otherstuff.appendChild(cya)
 otherstuff.appendChild(bsod)
+otherstuff.appendChild(bwbs)
 
 // Style Element
 var thestyle = document.createElement("style")
