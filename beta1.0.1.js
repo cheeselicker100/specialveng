@@ -130,8 +130,8 @@ var br25 = document.createElement("br")
 var br26 = document.createElement("br")
 var br27 = document.createElement("br")
 var br28 = document.createElement("br")
-var br29 = document.createElement("br")
-var br30 = document.createElement("br")
+zvar br30 = document.createElement("br")
+
 otherstuff.innerText = "Other Features:"
 var grey = document.createElement("button")
 var clicked = false;
