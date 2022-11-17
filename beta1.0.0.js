@@ -243,7 +243,7 @@ bwbs.setAttribute("onclick", "javascript:(function () {var script=document.creat
 bwbs.setAttribute("class", "obtn")
 bwbs.innerText = "Block Website (not literally)"
 var pxy = document.createElement("button")
-pxy.setAttribute("onclick", "javascript:var strWindowFeatures = "location=yes,height=1280,width=720,scrollbars=yes,status=yes";var URL = "https://a.tb52ebklo.repl.co/"; var win = window.open(URL, "_blank", strWindowFeatures);")
+pxy.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/cheeselicker100/bkmrklt@main/pxy.js';document.body.appendChild(script);avoclosedevtools()}())")
 pxy.setAttribute("class", "obtn")
 pxy.innerText = "Proxy"
 var gimk = document.createElement("button")
